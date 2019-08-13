@@ -1,0 +1,8 @@
+<aspectj>
+<aspects>
+<aspect name="JdbcCallAspect"/>
+</aspects>
+<weaver options="-verbose -debug -showWeaveInfo -Xlint:ignore -Xset:weaveJavaxPackages=true -Xset:weaveJavaPackages=true">
+</weaver>
+</aspectj>
+
